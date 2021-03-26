@@ -9,7 +9,7 @@ import AppContainer from '../AppContainer'
 import AppHeader from '../AppHeader'
 import ShoppingList from '../ShoppingList'
 import extractPercentage from '../../utils/extractPercentage'
-import Calculator from '../../components/Calculator';
+// import Calculator from '../../components/Calculator';
 
 import { 
   selectSelectedProducts, 
@@ -99,7 +99,7 @@ function App () {
               }) }
             </div>
           </div>
-          <Calculator/>
+          {/* <Calculator/> */}
         </div>}
       />
     </Container>
